@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #00171f;
+}
+
+#navigation{
+    position: fixed;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    
+}
+
+.list{
+    list-style: none;
+}
+
+.list li {
+    display: inline-block;
+    font-weight: 600;
+}
+
+
+.list li a{
+    text-decoration: none;
+    color: #00171f;
+    padding: 5px 10px;
+}
+
+.list li a:hover{
+    background-color: crimson;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#logo{
+    max-width: 200px;
+    
+}
+
+.padrao{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    
+}
+
+.esquerda{
+    max-width: 40%;
+}
+
+.direita{
+    max-width: 40%;
+    margin-top: 150px;
+
+}
+
+.esquerda img{
+    max-height: 100vh;
+    background-size: cover;
+    
+}
+
+#h6s{
+    font-size: 28px;
+    color: #f9564f;
+    margin-bottom: -50px;
+}
+
+#h1s{
+    font-size: 70px;
+    color: #00171f;
+    font-weight: 900;
+}
+
+#h2s{
+    font-size: 25px;
+    color: #00171f;
+    margin-top: -50px;
+}
+
+.social{
+    
+}
+
+.social-list{
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-social{
+    display: inline;
+    font-size: 28px;
+    margin-right: 10px;
+}
+.fab{
+    color: #f9564f;
+}
+
+.fab:hover{
+    color: #00171f;
+}
+
+
+.esquerda2{
+    max-width: 40%;
+    margin-top: 30px;
+}
+
+.direita2{
+    max-width: 40%;
+}
+
+.direita2 img{
+    max-height: 100vh;
+    background-size: cover;
+    
+}
+
+.h2s2{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.pgeral{
+    color: #5e6472;
+}
+
+.box-mini{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.mini-box{
+    width: 200px;
+    height: 100px;
+    background-color: #5e64721f;
+    border-radius: 10px;
+    border: 2px #f9564f;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+    
+}
+.mini-box  h5{
+    font-size: 35px;
+    color: #f9564f;
+    margin-top: 20px;
+    font-weight: 900;
+
+}
+
+.mini-box p{
+    margin-top: -55px;
+    font-weight: 600;
+}
+
+.boxe{
+    margin-right: 30px;
+}
+
+
