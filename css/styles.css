@@ -37,10 +37,13 @@ a{
     text-decoration: none;
     color: #00171f;
     padding: 5px 10px;
+    border-radius: 5px;
+    transition-property: background-color;
+    transition-duration: 500ms;
 }
 
 .list li a:hover{
-    background-color: crimson;
+    background-color: #f9564f;
     color: #fff;
     border-radius: 5px;
 }
@@ -111,6 +114,8 @@ a{
 }
 .fab{
     color: #f9564f;
+    transition-property: color;
+    transition-duration: 500ms;
 }
 
 .fab:hover{
