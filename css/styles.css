@@ -275,6 +275,30 @@ a{
     max-width: 40%;
 }
 
+.news_l > h1{
+    color: #fff;
+}
+
 .news_r{
     max-width: 40%;
+}
+
+input{
+    margin: 10px;
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+input[type="submit"]{
+    background-color: #fff;
+    color: #f9564f;
+    font-weight: 800;
+    width: 80px;
 }
