@@ -265,4 +265,15 @@ a{
 .secjobs{ 
     text-align: center;
 }
+.news{
+    background-color: #f9564f;
+    height: 150px;
+}
 
+.news_l{
+    max-width: 40%;
+}
+
+.news_r{
+    max-width: 40%;
+}
