@@ -302,3 +302,18 @@ input[type="submit"]{
     font-weight: 800;
     width: 80px;
 }
+
+/*Animation skills section*/
+.conteudo {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .icon {
+    padding: 20px;
+    cursor: pointer;
+  }
+

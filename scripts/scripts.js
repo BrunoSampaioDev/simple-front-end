@@ -1,55 +1,29 @@
+// seleciona todos os icones
+const icons = document.querySelectorAll('.icon')
 
 
-let titulos = document.getElementById("titleMod");
+// percorre todos os icones
+icons.forEach(icon => {
+  
+    
+  // adiciona evento de clique
+  icon.onmouseover = function() {
+    
+     // pega o valor dentro do atributo data-conteudo=""
+     const nomeDaDiv = this.dataset.conteudo
 
-function passarMouseJ(){
-    
-    titulos.innerHTML = "JavaScript ES6+";
-    
-}
+     // remove a classe 'visible' de todos elementos
+     document.querySelectorAll('.conteudo').forEach(divConteudo => {
+        divConteudo.classList.remove('visible')
+     })
+     
+     // adiciona a classe 'visible' no conteúdo clicado
+     const conteudo = document.querySelector(`#conteudo_${nomeDaDiv}`)
+     conteudo.classList.add('visible')
 
-function passarMouseN(){
-    
-    titulos.innerHTML = "Node JS";
-    
-}
+     const skill = document.getElementById('skill-title')
+     skill.innerHTML = ''
+  }
 
-function passarMouseR(){
-    
-    titulos.innerHTML = "React JS";
-    
-}
+})
 
-function passarMouseH(){
-    
-    titulos.innerHTML = "HTML 5";
-    
-}
-
-function passarMouseC(){
-    
-    titulos.innerHTML = "CSS3";
-    
-}
-
-function passarMouseG(){
-    
-    titulos.innerHTML = "GIT";
-    
-}
-
-function passarMouseGH(){
-    
-    titulos.innerHTML = "GIT HUB";
-    
-}
-
-function passarMouseGP(){
-    
-    titulos.innerHTML = "Gulp";
-    
-}
-
-function tirarMouse(){
-    titulos.innerHTML = "My Skills and Tecnologies"
-}
