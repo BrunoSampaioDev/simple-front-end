@@ -21,6 +21,7 @@ icons.forEach(icon => {
      const conteudo = document.querySelector(`#conteudo_${nomeDaDiv}`)
      conteudo.classList.add('visible')
 
+     //Remove o titulo que aparece antes de iniciar os eventos
      const skill = document.getElementById('skill-title')
      skill.innerHTML = ''
   }
