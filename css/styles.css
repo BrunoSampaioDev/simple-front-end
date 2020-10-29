@@ -317,3 +317,58 @@ input[type="submit"]{
     cursor: pointer;
   }
 
+
+  .services{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      
+  }
+
+  .myServices{
+      display: inline-block;
+      max-width: 300px;
+      max-height: 300px;
+      border: #5e64723d 1px solid;
+      border-radius: 10px;
+      box-sizing: border-box;
+      padding: 20px;
+      margin: 20px;
+  }
+
+  .iconServices{
+      margin-top: 10px;
+      font-size: 50px;
+      color: #fff;
+      background-color: #f9564f;
+      text-align: center;
+      border-radius: 10px;
+      padding: 20px;
+      min-width: 60px;
+      
+
+      
+  }
+
+  .iconServices:hover{
+      background-color: #00171f;
+      transition-property: background-color;
+      transition-duration: 500ms;
+  }
+  
+  .titleService{
+      font-size: 26px;
+      color: #00171f;
+      margin-top: 30px;
+      
+      
+  }
+
+  .descService{
+      margin-top: 0;
+      color: #5e6472;
+      margin-top: -20px;
+      
+      
+  }
