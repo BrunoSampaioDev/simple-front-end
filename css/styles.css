@@ -318,6 +318,11 @@ input[type="submit"]{
   }
 
 
+  .serviceTop{
+      max-width: 40%;
+      margin: auto;
+  }
+
   .services{
       display: flex;
       flex-wrap: wrap;
@@ -376,3 +381,86 @@ input[type="submit"]{
   .titleServiceTop{
       width: 100%;
   }
+
+  .contatos{
+    max-width: 40%;
+    margin: auto;
+  }
+
+  .formcontato{
+      background-color: #f9554f2d;
+      padding: 30px;
+      margin-top: 30px;
+  }
+
+  .formDireita{
+      max-width: 600px;
+      max-height: 350px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      border: 1px solid #5e64723d;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 20px;
+      
+
+
+      
+  }
+
+  .formDireita > form > input{
+      margin: auto;
+      padding: 10px;
+      margin-right: 20px;
+  }
+
+  .formDireita > form > p{
+    margin-bottom: 5px;
+}
+
+.menss > textarea{
+    
+    border-radius: 5px;
+   
+    border-style: none;
+}
+
+
+
+.menss > p{
+    margin-bottom: 5px;
+    
+}
+
+.btnenviar{
+    text-align: center;
+    width: 100%;
+}
+
+.btnenviar > input{
+    width: 480px;
+    padding: 10px;
+    background-color: #f9564f;
+    color: #fff;
+}
+
+.formEsuerda{
+    max-width: 280px;
+    max-height: 350px;
+    border: 1px solid #5e64723d;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.formEsuerda > h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.formEsuerda > p{
+    margin-top: 10px;
+}
