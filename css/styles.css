@@ -52,6 +52,28 @@ a{
     max-width: 200px;
     
 }
+.logotipo{
+    font-size: 30px;
+    font-weight: 800;
+    color: #00171f;
+    font-family: 'Roboto', sans-serif;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+.logotipo:hover{
+    color: #f9564f;
+}
+
+.rocklogo{
+    color: #f9564f;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+.rocklogo:hover{
+    color: #00171f;
+    
+}
 
 .padrao{
     
@@ -62,8 +84,28 @@ a{
     
 }
 
+.home-background{
+    background-color: #f9554f1c;
+
+}
+
+.circle{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 900px;
+    height: 900px;
+    background-color: #f9564f;
+    border-radius: 1000px;
+    
+}
+
+
+
 .esquerda{
     max-width: 40%;
+    background-color: #fff;
+    border-radius: 600px;
 }
 
 .direita{
@@ -310,6 +352,7 @@ input[type="submit"]{
   
   .visible {
     display: block;
+    transition-duration: 500ms;
   }
   
   .icon {
@@ -473,10 +516,14 @@ input[type="submit"]{
     background-color: #00171f;
     padding: 20px;
     color: #fff;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .social-footer{
     color: #fff;
+    font-size: 20px;
+    margin: 5px;
 }
 
 .social-footer:hover{
