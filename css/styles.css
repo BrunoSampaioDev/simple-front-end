@@ -464,3 +464,21 @@ input[type="submit"]{
 .formEsuerda > p{
     margin-top: 10px;
 }
+
+.fac{
+    color: #f9564f;
+}
+
+.rodape{
+    background-color: #00171f;
+    padding: 20px;
+    color: #fff;
+}
+
+.social-footer{
+    color: #fff;
+}
+
+.social-footer:hover{
+    color: #f9564f;
+}
