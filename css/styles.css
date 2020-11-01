@@ -139,10 +139,6 @@ a{
     margin-top: -50px;
 }
 
-.social{
-    
-}
-
 .social-list{
     list-style: none;
     display: inline;
@@ -528,4 +524,157 @@ input[type="submit"]{
 
 .social-footer:hover{
     color: #f9564f;
+}
+
+
+@media screen and (max-width: 420px){
+
+   /*  #geral{
+        background-color: aqua;
+        width: 100vh;
+    } */
+
+    #navigation{
+        display: none;
+    }
+
+    .padrao{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .esquerda{
+        max-width: 100%;
+    }
+    
+    
+    .esquerda img{
+        margin-top: 50px;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .direita{
+        max-width: 100%;
+        height: 500px;
+        background-color: rgba(255, 255, 255, 0.342);
+        position: absolute;
+        text-align: center;
+        margin-top: 110px ;
+    }
+
+    .direita2{
+        display: none;
+    }
+
+    .esquerda2{
+        display: block;
+        max-width: 90%;
+        margin: 0px;
+    }
+
+    .social-skill{
+        margin: 0;
+        padding: 20px 0 20px 0;
+        display: block;
+    }
+    
+    .skills{
+        max-width: 100%;
+        font-size: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+        
+    }
+    
+    .skills > i{
+        padding: 10px;
+        padding-top: 20px;
+    
+    }
+    
+    .description-skills{
+        max-width: 100%;
+    }
+
+    .exp{
+        margin: auto;
+        max-width: 100%;
+        
+    }
+
+    .news{
+        background-color: #f9564f;
+        height: 150px;
+        display: flex ;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
+    .news_l{
+        max-width: 100%;
+    }
+
+    .news_r{
+        max-width: 100%;
+    }
+
+    .serviceTop{
+        max-width: 100%;
+    }
+
+    .contatos{
+        max-width: 100%;
+    }
+    
+    .formcontato{
+        background-color: #f9554f2d;
+        padding: 30px;
+        margin-top: 30px;
+    }
+  
+    .formDireita{
+        max-width: 100%;
+        max-height: 550px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: 1px solid #5e64723d;
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .formDireita > form > input{
+        margin: auto;
+        padding: 10px;
+        width: 230px;
+    }
+
+    .btnenviar{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .btnenviar > input{
+        width: 250px;
+        padding: 10px;
+        background-color: #f9564f;
+        color: #fff;
+    }
+
+    .formEsuerda{
+        max-width: 100%;
+        max-height: 350px;
+        border: 1px solid #5e64723d;
+        border-radius: 5px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
 }
