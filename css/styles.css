@@ -534,8 +534,10 @@ input[type="submit"]{
         width: 100%;
     } 
  */
+
     #navigation{
-        display: none;
+        z-index: 0;
+        position: fixed;
     }
 
     .padrao{
@@ -546,23 +548,22 @@ input[type="submit"]{
 
     .esquerda{
         max-width: 80%;
+        display: none;
     }
     
     
-    .esquerda img{
-        margin-top: 50px;
-        background-size: cover;
-        max-width: 100%;
-    }
-
     .direita{
         max-width: 100%;
         height: 450px;
         background-color: rgba(255, 255, 255, 0.342);
-         position: absolute;
-         text-align: center;
-        margin-top: 40px ;
+        text-align: center;
+        margin-top: 90px;
     }
+
+   /*  #h1s{
+        font-size: 50px;
+        padding: 30px;
+    } */
 
     .direita2{
         display: none;
