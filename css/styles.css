@@ -264,7 +264,7 @@ a{
 }
 
 .jobs{
-    max-width: 400px;
+    max-width: 500px;
     border: solid 1px #5e647246;
     box-sizing: border-box;
     padding: 20px;
@@ -301,9 +301,10 @@ a{
 }
 
 .secjobs{ 
-    max-width: 80%;
+    max-width: 100%;
     text-align: center;
     margin: 0;
+    margin-bottom: 30px;
     
     
 }
