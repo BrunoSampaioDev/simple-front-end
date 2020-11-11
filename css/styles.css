@@ -543,12 +543,43 @@ input[type="submit"]{
     #navigation{
         
         display:block;
-        flex-wrap: ;
+    }
+
+    /*menu mobile*/
+    .btnMenu_open{
+        padding: 10px;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    .btnMenu_close{
+        background-color: #f9564f;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .menu{
+        position: absolute;
+        top: 0;
+        margin-left: 0;
+        transform: translateX(-100%);
+    }
+
+    .menu_open{
+        transform: translateX(0);
+        transition: transform 200ms linear;
     }
 
     #menu{
         max-width: 100%;
         display: block;
+        margin-left: -10px;
+    }
+
+    .list{
+        padding-left: 0;
+        margin: 0;
+        width: 100%;
     }
 
     .list li {
@@ -566,18 +597,19 @@ input[type="submit"]{
     }
     
     #logo{
-        max-width: 50%;
+        display: none;
         
         
         
     }
 
     .logotipo{
-        font-size: 20px;
+        display: none;
+        /* font-size: 20px;
         font-weight: 600;
         display: block;
         text-align: right;
-        max-width: 100%;
+        max-width: 100%; */
         
     }
 
