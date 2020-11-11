@@ -541,8 +541,43 @@ input[type="submit"]{
  */
 
     #navigation{
-        z-index: 0;
-        position: fixed;
+        
+        display:block;
+        flex-wrap: ;
+    }
+
+    #menu{
+        max-width: 100%;
+        display: block;
+    }
+
+    .list li {
+        display: block;
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .list li a:hover{
+        background-color: #f9564f;
+        color: #fff;
+        border-radius: 5px;
+    }
+    
+    #logo{
+        max-width: 50%;
+        
+        
+        
+    }
+    .logotipo{
+        font-size: 20px;
+        font-weight: 600;
+        display: block;
+        text-align: right;
+        max-width: 100%;
+        
     }
 
     .padrao{
