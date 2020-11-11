@@ -571,6 +571,7 @@ input[type="submit"]{
         
         
     }
+
     .logotipo{
         font-size: 20px;
         font-weight: 600;
@@ -616,11 +617,12 @@ input[type="submit"]{
     }
 
     .mini-box p{
-        font-size: 14px;
+        font-size: 13px;
+        font-weight: 500;
     }
 
     .social-skill{
-        margin: 0;
+        margin-top: 30px;
         padding: 20px 0 20px 0;
         display: block;
     }
@@ -686,6 +688,11 @@ input[type="submit"]{
     .news_l{
         max-width: 100%;
         font-size: 15px;
+    }
+
+    .h1_news{
+        font-size: 17px;
+        font-weight: 200;
     }
 
     .news_r{
